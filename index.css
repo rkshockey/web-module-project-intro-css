@@ -6,7 +6,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	font-family: inherit;
 	font-weight: inherit;
 	font-style: inherit;
-	font-size: 62.5%;
+	font-size: 100%;
 	outline: 0;
 	padding: 0;
 	margin: 0;
@@ -58,7 +58,7 @@ body {
 
 h1{
     font-family: 'Chelsea Market', cursive;
-    font-size:5rem
+    font-size:4rem
 }
 
 section {
@@ -71,9 +71,9 @@ nav {
 }
 nav a {
     display:inline-block;
-    padding:1% 0;
-    width:10%;
-    border: radius 10px;
+    padding:0.5% 0;
+    width:12%;
+    border-radius: 10px;
     text-align:center;
     color:white;
 }
@@ -85,7 +85,7 @@ nav a {
 
 .blue {
     background:#5ED3EB;
-    margin:0 23%;
+    margin:0 19%;
 }
 
 .gold {
@@ -103,12 +103,52 @@ nav a {
 
 .left {
     width:25%;
+    margin-left:4%
 }
 .right {
     width:70%;
     position:absolute;
-    top:40%;
+    top:25%;
     text-align:center;
+}
+
+h2 {
+    margin:5%;
+}
+
+.section-two {
+    background:#DDB9A3;
+    margin:5%;
+    padding: 1% 5%;
+    color: white;
+    text-align: center;
+}
+
+.section-two p {
+    padding-bottom: 2.5%
+}
+
+.section-three {
+    text-align:center;
+}
+
+.section-three img {
+    width:10%;
+}
+
+.section-three p {
+    display:inline-block;
+    width:25%;
+    font-size;:1.4rem;
+    line-height: 1;
+}
+
+span.bold {
+    font-weight:bold;
+}
+
+.fire, .mobile {
+    margin-bottom:5%;
 }
 
 .empty {
@@ -116,4 +156,8 @@ nav a {
     background-image: url('assets/footer_img.jpg');
     background-repeat: no-repeat;
     background-size:cover;
+}
+
+footer {
+    background:#F9E7DC;
 }
