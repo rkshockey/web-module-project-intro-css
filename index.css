@@ -92,6 +92,19 @@ nav a {
     background:#FFCD69;
     margin-right:10%;
 }
+    
+@keyframes button {
+    0% {transform:rotate(0deg);}
+    20% {transform:rotate(180deg);}
+    40% {transform:rotate(360deg);}
+    60% {transform:rotate(180deg);}
+    80% {transform:rotate(0deg);}
+}
+
+nav a:hover {
+    animation-name: button;
+    animation-duration: 2s;
+}
 
 .left img{
     border-radius:50%;
