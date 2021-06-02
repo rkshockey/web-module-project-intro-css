@@ -183,6 +183,23 @@ span.bold {
     margin-bottom:5%;
 }
 
+.know {
+    background-image: url('assets/campsite.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:gold;
+    margin:5%;
+    padding:10%;
+}
+
+.know h3, .know p {
+    margin-bottom:2%;
+}
+
+ol, ul {
+    margin-left: 2%;
+}
+
 .empty {
     height:40vh;
     background-image: url('assets/footer_img.jpg');
