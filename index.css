@@ -92,6 +92,11 @@ nav a {
     background:#FFCD69;
     margin-right:10%;
 }
+
+.red {
+    background:darkred;
+    margin: 0 42%
+}
     
 @keyframes button {
     0% {transform:rotate(0deg);}
@@ -129,7 +134,7 @@ h2 {
     margin:5%;
 }
 
-.section-two {
+.great-valley {
     background:#DDB9A3;
     margin:5%;
     padding: 1% 5%;
@@ -137,7 +142,7 @@ h2 {
     text-align: center;
 }
 
-.section-two p {
+.great-valley p {
     padding-bottom: 2.5%
 }
 
@@ -152,7 +157,7 @@ h2 {
 .section-three p {
     display:inline-block;
     width:25%;
-    font-size;:1.4rem;
+    font-size:1.4rem;
     line-height: 1;
 }
 
