@@ -111,7 +111,7 @@ nav a:hover {
     animation-duration: 2s;
 }
 
-.left img{
+.left img, .right img{
     border-radius:50%;
 }
 
@@ -119,19 +119,33 @@ nav a:hover {
     display:inline-block
 }
 
-.left {
+.section-one .left{
     width:25%;
     margin-left:4%
 }
-.right {
+.section-one .right{
     width:70%;
     position:absolute;
     top:25%;
     text-align:center;
 }
 
+.plan-top .right {
+    width:25%;
+    margin-right:4%;
+}
+
+.plan-top .left {
+    width: 70%;
+    text-align: center;
+}
+
 h2 {
     margin:5%;
+}
+
+h3 {
+    font-family: 'Chelsea Market', cursive;
 }
 
 .great-valley {
