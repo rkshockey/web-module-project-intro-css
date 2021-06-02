@@ -140,6 +140,10 @@ nav a:hover {
     text-align: center;
 }
 
+span.quote {
+    font-weight:bold;
+}
+
 h2 {
     margin:5%;
 }
@@ -192,7 +196,7 @@ span.bold {
     padding:10%;
 }
 
-h3, .know p, .education p {
+h3, .know p, .education p, .program p {
     margin-bottom:2%;
 }
 
@@ -220,7 +224,13 @@ li {
     background:aqua;
     color:teal;
     padding: 7%;
+}
 
+.program {
+    margin: 5%;
+    padding: 5%;
+    background: forestgreen;
+    color:black;
 }
 
 .empty {
